@@ -1,5 +1,6 @@
 package dormroomdevelopment.drd_app10;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -17,7 +18,6 @@ public class HomePage extends AppCompatActivity {
         setContentView(R.layout.activity_home_page);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -28,8 +28,11 @@ public class HomePage extends AppCompatActivity {
         });
     }
 
-    //hi guys
-    //yo what's good?
+    public void menuEvent(View v){
+        //this button will change the view to show the menu of pages
+    }
+
+
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
