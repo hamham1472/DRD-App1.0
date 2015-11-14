@@ -29,7 +29,7 @@ public class HomePage extends AppCompatActivity {
     }
 
     //hi guys
-
+    //yo what's good?
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
